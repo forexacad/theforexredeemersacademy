@@ -227,16 +227,50 @@ Author URI: http://www.bootstrapthemes.co
 }
 
 
+@media (min-width: 480px) and (max-width: 750px) {
+
+    html {
+        font-size: 85%; /**/
+    }
+    .about_skill_area .about_tabe .about_tabe_menu li a {
+        width: 70px;
+    }
+
+    .service .nav-tabs>li>a{
+        /* width:158px;
+        font-size: 95%;
+        display: inline-block;
+        text-align: center; */
+        display: none;
+    }   
+    .service_tabe_menu.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+        /* width:158px; */
+        display: none;
+    }
+}
+
+
 /* Landscape phones and smaller */
 @media (max-width: 479px) {
     html {
-        font-size: 67%; /**/
+        font-size: 70%; /**/
     }
     .btn-md {
         padding: 10px 10px 10px 0px;
     }
     .about_skill_area .about_tabe .about_tabe_menu li a {
-        width: 70px; /**/
+        width: 70px;
+    }
+    .service .nav-tabs>li>a{
+        /* width:158px;
+        font-size: 95%;
+        display: inline-block;
+        text-align: center; */
+        display: none;
+    }   
+    .service_tabe_menu.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+        /* width:158px; */
+        display: none;
     }
 
 }
@@ -248,20 +282,94 @@ Author URI: http://www.bootstrapthemes.co
         font-size: 65%; /**/
     }
     .about_skill_area .about_tabe .about_tabe_menu li a {
-        width: 65px; /**/
+        /*width: 70px;*/   /**/
+        display: none;
+    }
+    .service .nav-tabs>li>a{
+        /* width:158px;
+        font-size: 95%;
+        display: inline-block;
+        text-align: center; */
+        display: none;
+    }   
+    .service_tabe_menu.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+        /* width:158px; */
+        display: none;
     }
 
 }
 
 
-@media (max-width: 281px) {
+@media (max-width: 316px) {
 
     html {
         font-size: 55%; /**/
     }
     .about_skill_area .about_tabe .about_tabe_menu li a {
-        width: 53px; /**/
+        /* width: 70px; /**/
+        display: none;
     }
 
+    .service .nav-tabs>li>a{
+        /* width:158px;
+        font-size: 95%;
+        display: inline-block;
+        text-align: center; */
+        display: none;
+    }   
+    .service_tabe_menu.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+        /* width:158px; */
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 272px) {
+
+    html {
+        font-size: 45%; /**/
+    }
+    .about_skill_area .about_tabe .about_tabe_menu li a {
+        /* width: 70px; /**/
+        display: none;
+    }
+
+    .service .nav-tabs>li>a{
+        /* width:158px;
+        font-size: 95%;
+        display: inline-block;
+        text-align: center; */
+        display: none;
+    }   
+    .service_tabe_menu.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+        /* width:158px; */
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 232px) {
+
+    html {
+        font-size: 35%; /**/
+    }
+    .about_skill_area .about_tabe .about_tabe_menu li a {
+        /* width: 70px;  */
+        display: none;
+    }
+
+    .service .nav-tabs>li>a{
+        /* width:158px;
+        font-size: 95%;
+        display: inline-block;
+        text-align: center; */
+        display: none;
+    }   
+    .service_tabe_menu.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+        /* width:158px; */
+        display: none;
+    }
 }
 
